@@ -11,6 +11,6 @@ class Bowtie2 < Formula
   end
 
   test do
-    system "false"
+    system "bowtie2 --version"
   end
 end
