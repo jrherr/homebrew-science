@@ -1,9 +1,10 @@
+
 require 'formula'
 
 class Bowtie2 < Formula
   homepage 'http://bowtie-bio.sourceforge.net/bowtie2/index.shtml'
-  url 'http://downloads.sourceforge.net/project/bowtie-bio/bowtie2/2.1.0/bowtie2-2.1.0-source.zip'
-  sha256 '90a9d3a6bd19ddc3a8f90b935c6a2288478572de2ad4039b29f91016b95ef4b0'
+  url 'http://downloads.sourceforge.net/project/bowtie-bio/bowtie2/2.2.0/bowtie2-2.2.0-macos-x86_64.zip'
+  sha256 '5f4dd63d1517f5006f8bf8dfd5494b34fff564c3c6426613e2fde1665769d640'
 
   def install
     system "make"
