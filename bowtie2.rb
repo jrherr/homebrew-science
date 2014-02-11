@@ -7,7 +7,7 @@ class Bowtie2 < Formula
 
   def install
     system "make"
-    bin.install %W(bowtie2 bowtie2-build bowtie2-inspect)
+    bin.install %W(bowtie2 bowtie-align bowtie2-build bowtie2-inspect)
   end
 
   test do
